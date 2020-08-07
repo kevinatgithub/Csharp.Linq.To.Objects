@@ -75,7 +75,7 @@ IEnumerable<string> query = from line in lines
 ```
 7. Combine and Compare String Collections
     - concat
-    - unique
+    - union
     - intersect
 ```csharp
 IEnumerable<string> concatQuery = fileA.Concat(fileB).OrderBy(s => s);
@@ -148,6 +148,8 @@ foreach(var s in students)
 }
 ```
 10. Split with groups
+    - using Group by
+    - split into separate files
 ```csharp
 var file1 = File.ReadAllLines(filePath1);
 var file2 = File.ReadAllLines(filePath2);
@@ -159,6 +161,24 @@ var groupQuery = from name in mergeQuery
                  group name by n[0][0] into g
                  orderby g.Key
                  select g;
+
+if (!Directory.Exists(path2))
+    Directory.CreateDirectory(path2);
+
+foreach (var g in groupQuery)
+{
+    var filePath3 = path2 + "names-" + g.Key + ".txt";
+    Console.WriteLine(g.Key);
+
+    using (StreamWriter sw = new StreamWriter(filePath3))
+    {
+        foreach (var item in g)
+        {
+            sw.WriteLine(item);
+            Console.WriteLine("    {0}", item);
+        }
+    }
+}
 ```
 
 # Linq to Reflection
