@@ -14,7 +14,7 @@ namespace LINQ.to.Objects.Strings
         public List<int> ExamScores { get; set; }
     }
 
-    class Example_9_PopulateCollection
+    class Example_09_PopulateCollection
     {
         public static void Run()
         {

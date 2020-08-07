@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_5_SortLines
+    class Example_05_SortLines
     {
         public static void Run()
         {

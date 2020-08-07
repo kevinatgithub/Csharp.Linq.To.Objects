@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_7_MergeStrings
+    class Example_07_MergeStrings
     {
         public static void Run()
         {

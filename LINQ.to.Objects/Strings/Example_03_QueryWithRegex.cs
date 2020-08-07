@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_3_QueryWithRegex
+    class Example_03_QueryWithRegex
     {
         public static void Run()
         {

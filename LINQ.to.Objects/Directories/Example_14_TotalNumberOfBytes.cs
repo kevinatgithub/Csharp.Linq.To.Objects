@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Directories
 {
-    class Example_15_TotalNumberOfBytes
+    class Example_14_TotalNumberOfBytes
     {
         public static void Run()
         {

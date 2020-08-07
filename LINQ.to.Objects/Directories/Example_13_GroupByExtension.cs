@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace LINQ.to.Objects.Directories
 {
-    class Example_14_GroupByExtension
+    class Example_13_GroupByExtension
     {
         public static void Run()
         {

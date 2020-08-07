@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_6_SortingCSVFiles
+    class Example_06_SortingCSVFiles
     {
         public static void Run()
         {

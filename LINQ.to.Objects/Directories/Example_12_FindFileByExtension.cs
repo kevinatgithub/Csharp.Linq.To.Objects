@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace LINQ.to.Objects.Directories
 {
-    class Example_13_FindFileByExtension
+    class Example_12_FindFileByExtension
     {
         public static void Run()
         {

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_8_JoinDataFromDifferentSources
+    class Example_08_JoinDataFromDifferentSources
     {
         public static void Run()
         {

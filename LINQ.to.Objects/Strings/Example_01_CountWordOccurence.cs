@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_1_CountWordOccurence
+    class Example_01_CountWordOccurence
     {
         public static void Run()
         {

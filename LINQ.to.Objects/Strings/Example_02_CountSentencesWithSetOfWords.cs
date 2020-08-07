@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_2_CountSentencesWithSetOfWords
+    class Example_02_CountSentencesWithSetOfWords
     {
         public static void Run()
         {

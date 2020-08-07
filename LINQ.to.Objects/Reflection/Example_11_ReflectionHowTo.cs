@@ -6,11 +6,11 @@ using System.Reflection;
 
 namespace LINQ.to.Objects.Reflection
 {
-    class Example_12_ReflectionHowTo
+    class Example_11_ReflectionHowTo
     {
         public static void Run()
         {
-            Assembly assembly = typeof(Example_12_ReflectionHowTo).Assembly;
+            Assembly assembly = typeof(Example_11_ReflectionHowTo).Assembly;
                         
             var pubTypesQuery = from type in assembly.GetTypes()
                                 where type.IsPublic

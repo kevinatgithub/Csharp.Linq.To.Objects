@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LINQ.to.Objects.Strings
 {
-    class Example_4_CompareList
+    class Example_04_CompareList
     {
         private const string path1 = "../../../Strings/txt/names1.txt";
         private const string path2 = "../../../Strings/txt/names2.txt";
